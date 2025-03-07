@@ -1,0 +1,191 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Full-Screen Background */
+body {
+  background: #0a0d14;
+  color: #c9d1d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Main Container - Large, Centered */
+.container {
+  width: 95%;
+  max-width: 1400px;
+  background: #11161d;
+  border-radius: 20px;
+  padding: 60px;
+  box-shadow: 0px 10px 25px rgba(255, 255, 255, 0.08);
+  text-align: center;
+  border: 1px solid #1f2a3a;
+}
+
+/* Title - Large and Glowing */
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #58a6ff;
+  margin-bottom: 40px;
+  text-shadow: 0px 0px 15px rgba(88, 166, 255, 0.6);
+}
+
+/* Input & Button Wrapper */
+.input-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+/* Input Field - Bigger */
+.input {
+  flex: 1;
+  max-width: 700px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #1a2332;
+  color: #c9d1d9;
+  font-size: 20px;
+  outline: none;
+  transition: 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.input:focus {
+  border-color: #58a6ff;
+  box-shadow: 0px 0px 10px rgba(88, 166, 255, 0.5);
+}
+
+/* Scrape Button - Larger */
+.button {
+  background: #238636;
+  color: white;
+  border: none;
+  padding: 20px 35px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #2ea043;
+  box-shadow: 0px 0px 10px rgba(46, 160, 67, 0.5);
+}
+
+/* Loading Text */
+.loading {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #f0b400;
+  font-weight: bold;
+}
+
+/* Error Message */
+.error {
+  color: #ff6b6b;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Retry Button */
+.retry-button {
+  background: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+.retry-button:hover {
+  background: #e03b3b;
+  box-shadow: 0px 0px 10px rgba(224, 59, 59, 0.5);
+}
+
+/* Result Box - Large & Premium */
+.result-container {
+  background: #1a2332;
+  padding: 40px;
+  border-radius: 15px;
+  margin-top: 40px;
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.08);
+  text-align: left;
+  border: 1px solid #283445;
+}
+
+/* Result Title */
+.result-title {
+  font-size: 30px;
+  color: #58a6ff;
+  margin-bottom: 25px;
+  text-shadow: 0px 0px 10px rgba(88, 166, 255, 0.5);
+}
+
+/* Data Styling */
+.result-item {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Links Section */
+.link-section {
+  margin-top: 40px;
+}
+
+.link-title {
+  font-size: 24px;
+  color: #58a6ff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Links List - More Spacing */
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-item {
+  margin-bottom: 18px;
+  padding: 15px;
+  background: #212b3b;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.link-item:hover {
+  background: #2a3448;
+  transform: scale(1.02);
+}
+
+/* Link Styling */
+.link {
+  color: #58a6ff;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
