@@ -1,12 +1,8 @@
-Web Scraper
+OVERVIEW -
 
-Overview
+This project is a web scraper that extracts information dynamically from websites. It allows users to input a URL and fetch relevant data, such as genres and summaries from websites. The scraper uses Scrapy for web crawling and Selenium for testing. The frontend is built with React, while the backend is implemented using Flask.
 
-This project is a web scraper that extracts information dynamically from websites. It allows users to input a URL and fetch relevant data, such as genres and summaries from MyAnimeList. The scraper uses Scrapy for web crawling and Selenium for testing. The frontend is built with React, while the backend is implemented using Flask.
-
-Features
-
-Scrapes genres and summaries from MyAnimeList.
+Features -
 
 Allows users to input any website URL to extract and display information dynamically.
 
@@ -16,7 +12,7 @@ Employs Selenium for automated testing.
 
 Built with React (frontend) and Flask (backend).
 
-Technologies Used
+Technologies Used -
 
 Frontend: React, JavaScript, HTML, CSS
 
@@ -28,7 +24,7 @@ Testing: Selenium
 
 Development Environment: VS Code
 
-Installation
+Installation -
 
 Prerequisites
 
